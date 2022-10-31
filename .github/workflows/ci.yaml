@@ -11,9 +11,8 @@ on:
   # any code pushed to master and devops branch will also be a trigger
   push:
     branches:
-      - master
-      - develop
-      - 'FVBE**'
+      - main
+      - devops-qa
 
 jobs:
   build:
